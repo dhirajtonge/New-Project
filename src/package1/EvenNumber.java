@@ -13,9 +13,13 @@ public class EvenNumber {
         {   System.out.println("odd");
         }
     }
-
+public void m2()
+{
+    System.out.println("this is m2 method ");
+}
     public static void main(String[] args) {
         EvenNumber e=new EvenNumber();
         e.m1();
+        e.m2();
     }
 }
